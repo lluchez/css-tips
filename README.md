@@ -44,7 +44,9 @@ Collection of CSS tips
 - `min`
 - `max`
 - `clamp`, combine `width`, `min-width` and `max-width` into a single command
-` minmax`
+- `minmax`
+- `stretch` (*better alternative to `100%`*). [Ref](https://css-tricks.com/we-completely-missed-width-height-stretch/)
+
 
 ## Text
 
