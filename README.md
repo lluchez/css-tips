@@ -39,6 +39,12 @@ Collection of CSS tips
 [Reference video](https://www.youtube.com/shorts/fO0XD75u2TI)
 
 
+## Scrolling
+
+Ability to provide scrolling features (carousel, table of content links) without the need for JavaScript:
+- [::scroll-marker](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/::scroll-marker). See [related video](https://www.youtube.com/watch?v=HXIHpDnsizk)
+
+
 ## Sizing
 
 - `min`
