@@ -103,6 +103,12 @@ textarea {
 
 ## Transitions
 
+## Custom CSS transition timings/curves
+
+Websites to create your own curves:
+- https://curveeditor.com/
+- https://easingwizard.com/
+
 ### Transition to and from `display: none`
 
 [Youtube video](https://youtu.be/vmDEHAzj2XE?si=kXEVH8Xy8jIgY5Od)
