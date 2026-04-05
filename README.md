@@ -56,6 +56,14 @@ Ability to provide scrolling features (carousel, table of content links) without
 
 ## Text
 
+### Responsive font-size
+
+```css
+font-size: clamp(1.8rem, calc(10 + 1rem), 5vw);
+```
+
+[Youtube Short](https://www.youtube.com/shorts/Tsy-Ps-yVn0)
+
 ### Avoid wrapping text
 
 You can use `min-width: fit-content;` instead of `white-space: nowrap;`
@@ -101,6 +109,28 @@ textarea {
 
 [Official Doc](https://developer.mozilla.org/en-US/docs/Web/CSS/field-sizing). [Youtube Video](https://youtu.be/ElELqkwzcYM?si=8Q2p-yNNJyEup3s1)
 
+### Typewriter animation
+
+```css
+p {
+  margin-inline: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  dorder-right: 1px solid;
+  animation: typing 3s steps(22) forwards, blink 1s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100% }
+}
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+```
+
+[Youtube Short](https://www.youtube.com/shorts/fTOcWMD_5pk)
+
 ## Transitions
 
 ## Custom CSS transition timings/curves
@@ -136,6 +166,19 @@ Snap scrolling:
 
 ![image](https://github.com/user-attachments/assets/0aa0eb26-a2f7-4efc-bc2b-1bfa1f452a6d)
 
+
+## Scroll Animations
+
+```css
+animation: <name>;
+animation-timeline: view();
+animation-range: entry 0% cover 40%;
+```
+
+<img width="339" height="291" alt="image" src="https://github.com/user-attachments/assets/b0b54b74-100c-447c-8149-4f57f242c347" />
+
+
+[Youtube Video](https://youtu.be/VcrwXjNHB0U)
 
 ## Images
 
