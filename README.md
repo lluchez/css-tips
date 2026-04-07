@@ -52,6 +52,7 @@ Ability to provide scrolling features (carousel, table of content links) without
 - `clamp`, combine `width`, `min-width` and `max-width` into a single command
 - `minmax`
 - `stretch` (*better alternative to `100%`*). [Ref](https://css-tricks.com/we-completely-missed-width-height-stretch/)
+- `min-block-size: 100svh` (for `body`, to make sure that it uses at least the full page height)
 
 
 ## Text
@@ -143,6 +144,15 @@ Websites to create your own curves:
 
 [Youtube video](https://youtu.be/vmDEHAzj2XE?si=kXEVH8Xy8jIgY5Od)
 
+## Animations
+
+- [Creating Eye-Catching Circular Animations](https://www.youtube.com/shorts/BiYBJ9PIbrw)
+
+```css
+background: conic-gradient (color 100%, transparent 100%);
+```
+<img width="260" height="162" alt="image" src="https://github.com/user-attachments/assets/930a1b23-f0d5-4085-b601-9236923384c8" />
+
 
 ## Scrolling/Snapping
 
@@ -204,10 +214,12 @@ animation-range: entry 0% cover 40%;
 
 html {
   color-scheme: dark light;
+  scrollbar-gutter: stable;
 }
 
 body {
-  min-height: 100vh;
+  /*min-height: 100vh;*/
+  min-block-size: 100svh;
 }
 
 img, picture, svg, video {
