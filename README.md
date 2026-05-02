@@ -39,6 +39,13 @@ Collection of CSS tips
 [Reference video](https://www.youtube.com/shorts/fO0XD75u2TI)
 
 
+### `@position-try` (fallback positioning)
+
+Dropdown items positioning example ([Video](https://youtu.be/dsD9bE_QVAs)):
+
+<img width="166" height="131" alt="image" src="https://github.com/user-attachments/assets/cca5aa8d-96ca-4d27-804a-fab56b7bf341" />
+
+
 ## Scrolling
 
 Ability to provide scrolling features (carousel, table of content links) without the need for JavaScript:
