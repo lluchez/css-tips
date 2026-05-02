@@ -132,9 +132,9 @@ p {
 
 [Youtube Short](https://www.youtube.com/shorts/fTOcWMD_5pk)
 
-## Transitions
+## Transitions/Animations
 
-## Custom CSS transition timings/curves
+### Custom CSS transition timings/curves
 
 Websites to create your own curves:
 - https://curveeditor.com/
@@ -144,7 +144,7 @@ Websites to create your own curves:
 
 [Youtube video](https://youtu.be/vmDEHAzj2XE?si=kXEVH8Xy8jIgY5Od)
 
-## Animations
+### Circular outset animation
 
 - [Creating Eye-Catching Circular Animations](https://www.youtube.com/shorts/BiYBJ9PIbrw)
 
@@ -152,6 +152,13 @@ Websites to create your own curves:
 background: conic-gradient (color 100%, transparent 100%);
 ```
 <img width="260" height="162" alt="image" src="https://github.com/user-attachments/assets/930a1b23-f0d5-4085-b601-9236923384c8" />
+
+
+### Page Transitions (multiple examples, including `Pixelate dissolve`)
+
+[Reference](https://css-tricks.com/7-view-transitions-recipes-to-try/)
+
+<img width="710" height="256" alt="image" src="https://github.com/user-attachments/assets/b2b3324d-1332-46d5-85bd-df2bf4e7c984" />
 
 
 ## Scrolling/Snapping
